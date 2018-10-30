@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{88731EAE-C15C-41C4-9071-B56CF986D35F}</ProjectGuid>
+    <ProjectGuid>{F84889C5-4953-4867-A864-0C593F9CCF20}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>test2</RootNamespace>
-    <AssemblyName>test2</AssemblyName>
+    <RootNamespace>面向对象学习</RootNamespace>
+    <AssemblyName>面向对象学习</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="child.cs" />
-    <Compile Include="dog.cs" />
-    <Compile Include="Gender.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

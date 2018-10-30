@@ -9,16 +9,16 @@ namespace test2
     /// <summary>
     /// 小朋友
     /// </summary>
-    class child
+    class Child
     {
         private string name;//姓名
-        private string _sex = "男";//性别
+        private Gender sex = Gender.男;//性别
         private int height;//身高
         private int _age;
 
-        public string Sex
+        public Gender Sex
         {
-            get { return _sex; }
+            get { return this.sex; }
             //set { _sex = value; }
         }
 
@@ -119,6 +119,33 @@ namespace test2
         {
             int sum = n1 + n2;
             return sum;//返回值
+        }
+        public Child()
+        {
+
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="sex"></param>
+        /// <param name="age"></param>
+        public Child(string name, Gender sex, int age)
+        {
+            Name = name;
+            Age = age;
+            this.sex = sex;
+            
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="age"></param>
+        public Child(string name, int age)
+        {
+            Name = name;
+            Age = age;
         }
     }
 
