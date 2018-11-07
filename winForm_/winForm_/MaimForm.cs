@@ -88,5 +88,24 @@ namespace winForm_
             rich_textbox rich_Textbox = new rich_textbox();
             rich_Textbox.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Timer1 timer1 = new Timer1();
+            timer1.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            checkbox控件 checkBox = new checkbox控件();
+            checkBox.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Login login1 = new Login();
+            login1.Show();
+
+        }
     }
 }

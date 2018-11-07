@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="checkbox控件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkbox控件.Designer.cs">
+      <DependentUpon>checkbox控件.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="MaimForm.cs">
       <SubType>Form</SubType>
@@ -73,8 +85,20 @@
       <DependentUpon>rich_textbox.cs</DependentUpon>
     </Compile>
     <Compile Include="StaticTry.cs" />
+    <Compile Include="Timer1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timer1.Designer.cs">
+      <DependentUpon>Timer1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="checkbox控件.resx">
+      <DependentUpon>checkbox控件.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MaimForm.resx">
       <DependentUpon>MaimForm.cs</DependentUpon>
@@ -93,6 +117,9 @@
     </Compile>
     <EmbeddedResource Include="rich_textbox.resx">
       <DependentUpon>rich_textbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timer1.resx">
+      <DependentUpon>Timer1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
