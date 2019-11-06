@@ -74,7 +74,8 @@ namespace PetShop
         public Dog(string name) : base(name)
         {
             ++Num;
-            if (Newdog != null)
+            if (Newdog != null) 
+
             {
                 Newdog();
             }
